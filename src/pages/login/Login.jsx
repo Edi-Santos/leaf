@@ -9,7 +9,6 @@ function Login() {
   const [password, setPassword] = useState('');
 
   const handleChange = ({ target }) => {
-    console.log(target);
     const { value } = target;
     const { type } = target;
 
