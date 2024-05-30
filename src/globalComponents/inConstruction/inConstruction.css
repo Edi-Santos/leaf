@@ -1,0 +1,12 @@
+.in-construction-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.in-construction-img {
+  border: none;
+  filter: invert(100%);
+  width: 100%;
+}
