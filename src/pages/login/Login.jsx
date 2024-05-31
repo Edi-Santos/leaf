@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import Email from './components/Email';
 import Password from './components/Password';
 
+import './login.css';
+
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -16,7 +18,7 @@ function Login() {
   };
 
   return (
-    <form>
+    <form className='login-form'>
       <h2>LOGIN</h2>
 
       <section>
