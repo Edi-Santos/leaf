@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import InConstruction from '../../components/inConstruction/InConstruction';
+import InConstruction from '../../globalComponents/inConstruction/InConstruction';
 import './home.css';
 
 function Home() {
