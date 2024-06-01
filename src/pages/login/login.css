@@ -5,3 +5,13 @@
   height: 100vh;
   justify-content: center;
 }
+
+.login-input-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input-text label {
+  display: flex;
+  flex-direction: column;
+}
