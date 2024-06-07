@@ -27,10 +27,10 @@ function Login() {
           <Password value={password} onChange={handleChange} />
         </section>
 
-        <div>
+        <section className='login-button'>
           <button type='button'>ENTRAR</button>
           <Link to={'/'}>VOLTAR</Link>
-        </div>
+        </section>
       </form>
     </main>
   );
