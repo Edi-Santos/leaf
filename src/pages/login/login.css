@@ -11,13 +11,15 @@
   display: flex;
   flex-direction: column;
   height: 50%;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 75%;
 }
 
 .login-input-text {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: 30%;
 }
 
 .login-input-text label {
